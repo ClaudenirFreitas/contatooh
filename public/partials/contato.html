@@ -1,0 +1,26 @@
+<div ng-init="buscarPorId()">
+    <h1 class="text-center">Contato</h1>
+    <p ng-show="mensagem.texto">
+        {{ mensagem.texto}}
+    </p>
+    <form>
+        <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input id="nome" type="text" class="form-control" required ng-model="contato.nome">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" required ng-model="contato.email">
+        </div>
+        <div class="form-group">
+            <label for="emergencia">Emergencia</label>
+            <select id="emergencia" class="form-control" ng-model="contato.emergencia" ng-options="contato._id as contato.nome for contato in contatos">
+                
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" ng-click="salvar(contato)">Salvar</button>
+            <a ng-href="#/contatos" class="btn btn-default">Voltar</a>
+        </div>
+    </form>
+</div>
