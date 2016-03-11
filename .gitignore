@@ -3,3 +3,4 @@ node_modules/
 public/vendor/
 script/
 .tmp
+/config/.config.js

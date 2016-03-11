@@ -35,7 +35,7 @@ module.exports = function () {
     app.use(helmet.xframe()); // evitar ataques via frame e iframe
     app.use(helmet.xssFilter()); // adiciona um header para que o navegador ativar um protecao especial contra XSS
     app.use(helmet.nosniff()); // utilizar os mimes types padrão css e javascript
-//    app.use(helmet.hidePoweredBy({setTo: "PHP"})); // setando outro servidor
+    app.use(helmet.hidePoweredBy({setTo: "GlassFish"})); // setando outro servidor
     app.disable("x-powered-by"); // ocultar do header a tecnologia utilizada
 
 
