@@ -2,6 +2,13 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/freitas/Documents/nodejs-projects/contatooh/.travis.yml</file>
+            <file>file:/home/freitas/Documents/nodejs-projects/contatooh/config/protractor.js</file>
+            <file>file:/home/freitas/Documents/nodejs-projects/contatooh/test/data.js</file>
+            <file>file:/home/freitas/Documents/nodejs-projects/contatooh/config/env/development.js</file>
+            <file>file:/home/freitas/Documents/nodejs-projects/contatooh/config/config.js</file>
+            <file>file:/home/freitas/Documents/nodejs-projects/contatooh/server.js</file>
+        </group>
     </open-files>
 </project-private>
