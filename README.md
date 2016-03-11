@@ -10,3 +10,5 @@ Stack utilizada:
 - Bower
 - Protractor
 - Karma
+- Travis
+- Sauce labs

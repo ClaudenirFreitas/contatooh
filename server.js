@@ -2,10 +2,11 @@
 
 const http = require("http"),
     express = require("express"),
-    app = require('./config/express')();
+    app = require('./config/express')(),
+    config = require("./config/config")();
 
 require("./config/passport")();
-require("./config/database")("mongodb://localhost/contatooh");
+require("./config/database")(config.db);
 
 http.createServer(app).listen(
         app.get("port"),
