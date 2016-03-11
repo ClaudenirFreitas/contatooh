@@ -1,4 +1,6 @@
-# contatooh
+[![Build Status](https://travis-ci.org/ClaudenirFreitas/contatooh.svg?branch=master)](https://travis-ci.org/ClaudenirFreitas/contatooh)
+
+# Contatooh
 
 Stack utilizada:
 - NodeJS
